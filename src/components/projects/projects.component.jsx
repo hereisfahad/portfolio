@@ -45,16 +45,31 @@ function Projects() {
                     site: 'https://hereisfahad.github.io/robofriend-ZTM/',
                     github: 'https://github.com/hereisfahad/robofriend-ZTM'
                     }
+                    ,
+                    {
+                    name: 'Budget App',
+                    desc: 'A basic site which calculated budget based on incom and expenditures.',
+                    tools: 'HTML5, CSS3, JavaScript',
+                    imgUrl:'https://i.ibb.co/DzXQxr7/budget.png',
+                    site: 'https://hereisfahad.github.io/Budget-App',
+                    github: 'https://github.com/hereisfahad/Budget-App'
+                    },
+                    {
+                    name: 'Robo Filter Web-App',
+                    desc: 'Basic react app which displays robot cards.',
+                    tools: 'ReactJs',
+                    imgUrl:'https://i.ibb.co/rkv8tRX/robo.png',
+                    site: 'https://hereisfahad.github.io/robofriend-ZTM/',
+                    github: 'https://github.com/hereisfahad/robofriend-ZTM'
+                    }
              ]
                     
   return (
-    <Container>
-      <Row className="mt-5 d-flex hcenters" >
+    <Row className="mt-5 projectsContainer" >
         {
             projects.map((item)=> <PCard imgUrl={item.imgUrl} name={item.name} desc={item.desc} tools={item.tools} site={item.site} github={item.github}  />)
         }
-      </Row>
-    </Container>
+     </Row>
     
   );
 }

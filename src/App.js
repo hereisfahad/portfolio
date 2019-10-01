@@ -14,11 +14,11 @@ import { Route } from 'react-router-dom';
 function App() {
   return (
     <div>
-        <h1 className="center">Portfolio</h1>
+      <div style={{marginLeft:'200px'}} ><h1 >Portfolio</h1></div>
       <hr/>
-      <Row className="d-flex justify-c">
-        <Col sm="2" xs="4" ><Navbar/></Col>
-        <Col sm="10" xs="8" >            
+      <Row className="d-flex justify-content-space-evenly">
+        <Col  sm="2" xs="4"><Navbar/></Col>
+        <Col  sm="10" xs="8"className="" >            
               <Route path="/" component={Home} exact />
               <Route path="/projects" component={Projects} exact />
               <Route path="/contact" component={Contact} exact />
