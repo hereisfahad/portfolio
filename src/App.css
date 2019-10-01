@@ -1,0 +1,20 @@
+a{
+  text-decoration: none;
+}
+.App {
+  text-align: center;
+}
+hr{
+  margin-top: 5rem;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+
+}
+.center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
