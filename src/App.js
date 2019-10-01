@@ -14,7 +14,7 @@ import { Route } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <h1 className="">Portfolio</h1>
+        <h1 className="center">Portfolio</h1>
       <hr/>
       <Row className="d-flex justify-c">
         <Col sm="2" xs="4" ><Navbar/></Col>

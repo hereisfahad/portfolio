@@ -1,11 +1,5 @@
-a{
-  text-decoration: none;
-}
 .App {
   text-align: center;
-}
-hr{
-  margin-top: 5rem;
 }
 h1{
   display: flex;
@@ -15,6 +9,6 @@ h1{
 }
 .center{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
