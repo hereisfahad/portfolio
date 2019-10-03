@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <div className="mt-5">
+    <div className="mt-3">
         <Nav defaultActiveKey="/home" className=" flex-column" >
           <Link style={{textDecoration:'none'}} className="link d-flex align-items-center justify-content-center" to='/'> Home</Link>
           <Link style={{textDecoration:'none'}}  className="link d-flex align-items-center justify-content-center" to='/projects' >Projects</Link>

@@ -89,7 +89,7 @@ function Projects() {
              ]
                     
   return (
-    <Row className="mt-5 projectsContainer" >
+    <Row className="mt-3 projectsContainer" >
         {
             projects.map((item)=> <PCard imgUrl={item.imgUrl} name={item.name} desc={item.desc} tools={item.tools} site={item.site} github={item.github}  />)
         }

@@ -8,9 +8,9 @@ import {Container, Row, Col } from 'react-bootstrap';
 function Home() {
   return (
     <Container>
-      <Row className="mt-5">
+      <Row className="mt-3">
         <Col md={{span:8, order:1}} xs={{span:8, order:2}}>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nihil aspernatur omnis laboriosam ipsum itaque tempora incidunt necessitatibus hic illo quo optio architecto maiores nisi tempore consequuntur aperiam dolorum velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod blanditiis tempora non officia hic mollitia ea nobis inventore nemo ipsam, enim sapiente nostrum facere sed excepturi deserunt facilis repudiandae impedit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam reprehenderit maxime ullam omnis sequi voluptatem aliquam explicabo iusto magni dolore sint corporis eaque unde, nesciunt nisi asperiores fugiat? Nulla, placeat!
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam reprehenderit maxime ullam omnis sequi voluptatem aliquam explicabo iusto magni dolore sint corporis eaque unde, nesciunt nisi asperiores fugiat? Nulla, placeat!
         </Col>
         <Col md={{span:4, order:2}} xs={{span:8, order:1}} >
           <div className="App d-flex justify-content-center mb-3 ml-5 mr-5" >
