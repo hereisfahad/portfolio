@@ -3,7 +3,7 @@ import './projects.styles.css';
 
 // import Tilt from 'react-tilt';
 // import logo from './pp.jpg';
-import {Container, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import PCard from '../card/card.component';
 // import dp from '../Home/pp.jpg';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
