@@ -61,6 +61,22 @@ function Projects() {
                     imgUrl:'https://i.ibb.co/rkv8tRX/robo.png',
                     site: 'https://hereisfahad.github.io/robofriend-ZTM/',
                     github: 'https://github.com/hereisfahad/robofriend-ZTM'
+                    },
+                    {
+                    name: 'Todo List-JQuery',
+                    desc: 'Basic todo list.',
+                    tools: 'HTML, CSS, JQuery',
+                    imgUrl:'https://i.ibb.co/jJRD1G2/to-DOJquery.png',
+                    site: 'https://hereisfahad.github.io/todolist-jquery/',
+                    github: 'https://github.com/hereisfahad/todolist-jquery'
+                    },
+                    {
+                    name: 'Weather App',
+                    desc: 'Basic react app which displays weather based on city and county',
+                    tools: 'ReactJs',
+                    imgUrl:'https://i.ibb.co/3mgHTZB/weather.png',
+                    site: 'https://github.com/hereisfahad/Weather-app',
+                    github: 'https://hereisfahad.github.io/weatherApp/'
                     }
              ]
                     
