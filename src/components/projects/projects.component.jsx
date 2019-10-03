@@ -3,7 +3,7 @@ import './projects.styles.css';
 
 // import Tilt from 'react-tilt';
 // import logo from './pp.jpg';
-import { Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import PCard from '../card/card.component';
 // import dp from '../Home/pp.jpg';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -89,11 +89,13 @@ function Projects() {
              ]
                     
   return (
-    <Row className="mt-3 projectsContainer" >
-        {
-            projects.map((item)=> <PCard imgUrl={item.imgUrl} name={item.name} desc={item.desc} tools={item.tools} site={item.site} github={item.github}  />)
-        }
-     </Row>
+    <Container>
+      <Row className="mt-3 projectsContainer" >
+          {
+              projects.map((item)=> <PCard imgUrl={item.imgUrl} name={item.name} desc={item.desc} tools={item.tools} site={item.site} github={item.github}  />)
+          }
+      </Row>
+     </Container> 
     
   );
 }

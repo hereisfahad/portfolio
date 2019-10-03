@@ -14,11 +14,11 @@ import { Route } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <div style={{marginLeft:'17%'}} ><h1 >Portfolio</h1></div>
-      <hr/>
+      <div id="heading" ><h1 >Portfolio</h1></div>
+      {/* <hr/> */}
       <Row className="d-flex justify-content-space-evenly">
-        <Col  sm="2" xs={{span:1}} ><Navbar/></Col>
-        <Col  sm="10" xs={{offset:3, span:7}} className="" >            
+        <Col  sm="2" xs={{span:1}}  ><Navbar/></Col>
+        <Col  lg={{offset:0,span:10}} sm={{offset:2, span:7}} xs={{offset:3, span:7}} className="" >            
               <Route path="/" component={Home} exact />
               <Route path="/projects" component={Projects} exact />
               <Route path="/contact" component={Contact} exact />

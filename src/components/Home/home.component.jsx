@@ -9,13 +9,13 @@ function Home() {
   return (
     <Container>
       <Row className="mt-3">
-        <Col md={{span:8, order:1}} xs={{span:8, order:2}}>
+        <Col sm='8' xs={{span:12, order:2}} >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam reprehenderit maxime ullam omnis sequi voluptatem aliquam explicabo iusto magni dolore sint corporis eaque unde, nesciunt nisi asperiores fugiat? Nulla, placeat!
         </Col>
-        <Col md={{span:4, order:2}} xs={{span:8, order:1}} >
+        <Col sm='4' xs={{span:2, order:1, offset:2}} >
           <div className="App d-flex justify-content-center mb-3 ml-5 mr-5" >
             <Tilt className="Tilt " options={{ max : 55 }}  style={{ height: 200, width: 200 }}>
-              <img src={logo} alt="Logo" width={200} heihgt={200} />    
+              <img src={logo} alt="Logo" width={180} heihgt={180} />    
             </Tilt>
          </div>
         </Col>
