@@ -12,12 +12,12 @@ import {  ReactComponent as LinkedIn } from './linkedin.svg';
 function Contact() {
   return (
     <div className="mt-3">
-      {/* <Row> */}
-
-        <Col   sm={{offset:0}} xs={{offset:2,span:10}} > 
+      <Row>
+        <Col   sm={{offset:0}} xs={{offset:0,span:10}} > 
           <h2 style={{color:'#9a9a3ec9', paddingTop:'0px' }} >Don't be a stranger</h2>
-          <p style={{color:'#3e3e36ed', marginBottom:'70px' }} >Feel free to get in touch with me. I am always open to discussing new projects, createive ideas or opportunity to be a part of you visions.</p>
-          <p style={{ borderBottom:'1px solid black' }} >You can reach me on these platforms.</p>
+          <p style={{color:'#3e3e36ed', marginBottom:'70px', maxWidth:'60%' }} >Feel free to get in touch with me. I am always open to discussing new projects, createive ideas or opportunity to be a part of you visions.</p>
+          <p style={{ borderBottom:'1px solid black', maxWidth:'50%' }} >You can reach me on these platforms.</p>
+          
           <a href="https://github.com/hereisfahad" rel="noopener noreferrer" target="_blank">
           <Github style={{width:30, height:30, marginRight:'10px', marginBottom:'10px'}} />
           </a>
@@ -34,7 +34,7 @@ function Contact() {
             <Whatsapp style={{width:30, height:30, marginRight:'10px', marginBottom:'10px'} }/>
           </a> 
         </Col>
-      {/* </Row> */}
+      </Row>
     </div>
   );
 }

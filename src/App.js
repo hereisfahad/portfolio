@@ -16,9 +16,9 @@ function App() {
     <div>
       <div id="heading" ><h1 >Portfolio</h1></div>
       {/* <hr/> */}
-      <Row className="d-flex justify-content-space-evenly">
-        <Col  sm="2" xs={{span:1}}  ><Navbar/></Col>
-        <Col  lg={{offset:0,span:10}} sm={{offset:2, span:7}} xs={{offset:3, span:7}} className="" >            
+      <Row className="d-flex justify-content-evenly">
+        <Col lg={{offset:0,span:2}} sm="2" xs={{span:1}}  ><Navbar/></Col>
+        <Col  lg={{offset:0,span:10}} sm={{offset:2, span:8}} xs={{offset:3, span:6}}  >            
               <Route path="/" component={Home} exact />
               <Route path="/projects" component={Projects} exact />
               <Route path="/contact" component={Contact} exact />
