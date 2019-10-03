@@ -64,7 +64,7 @@ function Projects() {
                     },
                     {
                     name: 'Todo List-JQuery',
-                    desc: 'Basic todo list.',
+                    desc: 'Basic todo list with jquery',
                     tools: 'HTML, CSS, JQuery',
                     imgUrl:'https://i.ibb.co/jJRD1G2/to-DOJquery.png',
                     site: 'https://hereisfahad.github.io/todolist-jquery/',
@@ -77,7 +77,15 @@ function Projects() {
                     imgUrl:'https://i.ibb.co/3mgHTZB/weather.png',
                     site: 'https://github.com/hereisfahad/Weather-app',
                     github: 'https://hereisfahad.github.io/weatherApp/'
-                    }
+                    },
+                    {
+                      name: 'Todo List js',
+                      desc: 'Basic todo list with vanilla javascript',
+                      tools: 'HTML, CSS, JavaScript',
+                      imgUrl:'https://i.ibb.co/jJRD1G2/to-DOJquery.png',
+                      site: 'https://hereisfahad.github.io/todo-js/.',
+                      github: 'https://github.com/hereisfahad/todo-js'
+                      },
              ]
                     
   return (
