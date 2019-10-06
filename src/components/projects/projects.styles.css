@@ -1,8 +1,5 @@
-/* .hcenters{
-    display: flex;
-    justify-content: space-evenly;
+.projectGrid{
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-.projectsContainer{
-    display: flex;
-    justify-content: space-evenly;
-} */

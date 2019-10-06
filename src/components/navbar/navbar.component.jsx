@@ -6,13 +6,14 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <div className="">
-        <Nav defaultActiveKey="/home" className=" flex-column" >
-          <Link style={{textDecoration:'none'}} className="link d-flex align-items-center justify-content-center" to='/'> Home</Link>
-          <Link style={{textDecoration:'none'}}  className="link d-flex align-items-center justify-content-center" to='/projects' >Projects</Link>
-          <Link style={{textDecoration:'none'}}  className="link d-flex align-items-center justify-content-center" to='/contact' >Contact</Link>
+    // <div className="">
+        <Nav defaultActiveKey="/home" className="navbarStyle" >
+          <Link style={{textDecoration:'none'}} className="link " to='/'> Home</Link>
+          <Link style={{textDecoration:'none'}}  className="link " to='/projects' >Projects</Link>
+          <Link style={{textDecoration:'none'}}  className="link " to='/contact' >Contact</Link>
+          <Link style={{textDecoration:'none'}}  className="link " to='/about' >About</Link>
         </Nav>
-    </div>
+    // </div>
     
   )}
 

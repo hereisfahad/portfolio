@@ -1,15 +1,11 @@
 import React from 'react';
 import './projects.styles.css';
 
-// import Tilt from 'react-tilt';
-// import logo from './pp.jpg';
-import { Container, Row } from 'react-bootstrap';
 import PCard from '../card/card.component';
-// import dp from '../Home/pp.jpg';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faGithub } from '@fortawesome/fontawesome-svg-core';
 // import { faCoffee, faStar, faHome } from '@fortawesome/free-solid-svg-icons';
-{/* <Button variant="primary">Go somewhere</Button> */}
+/* <Button variant="primary">Go somewhere</Button> */
 
 function Projects() {
     const projects = [
@@ -89,13 +85,11 @@ function Projects() {
              ]
                     
   return (
-    <Container>
-      <Row className="mt-3 projectsContainer" >
+    <div style={{marginTop:'25px', }} className="projectGrid">
           {
-              projects.map((item)=> <PCard imgUrl={item.imgUrl} name={item.name} desc={item.desc} tools={item.tools} site={item.site} github={item.github}  />)
+             projects.map( (item) =>  <PCard imgUrl={item.imgUrl} name={item.name} desc={item.desc} tools={item.tools} site={item.site} github={item.github}  />)
           }
-      </Row>
-     </Container> 
+    </div> 
     
   );
 }

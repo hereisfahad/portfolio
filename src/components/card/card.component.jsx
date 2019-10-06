@@ -4,8 +4,8 @@ import { Card } from 'react-bootstrap';
 
 function PCard({ imgUrl, name, desc, tools, site, github}) {
   return (
-        <Card style={{ width: '18rem', }} border="secondary" className="img mb-3">
-            <Card.Img variant="top" src={ imgUrl } style={{height:'140px'}} />
+        <Card style={{ width: '18rem', }} border="secondary" className="img">
+            <Card.Img variant="top" src={ imgUrl } style={{height:'100px'}} />
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{tools}</Card.Subtitle>
