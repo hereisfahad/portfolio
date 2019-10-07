@@ -5,7 +5,7 @@ import logo from '../Home/pp.jpg';
 
 function About() {
   return (
-    <div className="showCaseDiv">
+    <div className="showCaseDiv animated zoomInUp" >
         {/* <h2 >about section where i show my stack</h2> */}
         <div className="App d-flex justify-content-center mb-3 ml-5 mr-5" >
             <Tilt className="Tilt " options={{ max : 55 }}  style={{ height: 200, width: 200 }}>

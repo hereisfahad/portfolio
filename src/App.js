@@ -27,7 +27,7 @@ function App() {
       <Route path="/contact" component={Contact} exact />
       <Route path="/about" component={About} exact />
 
-      <footer>
+      <footer >
         <a href="https://github.com/hereisfahad" rel="noopener noreferrer" target="_blank">
           <Github style={{width:30, height:30, marginRight:'16px', marginBottom:'10px'}} />
         </a>

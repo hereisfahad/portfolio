@@ -85,7 +85,7 @@ function Projects() {
              ]
                     
   return (
-    <div style={{marginTop:'25px', }} className="projectGrid">
+    <div style={{marginTop:'25px', }} className="projectGrid animated bounceInUp">
           {
              projects.map( (item) =>  <PCard imgUrl={item.imgUrl} name={item.name} desc={item.desc} tools={item.tools} site={item.site} github={item.github}  />)
           }
