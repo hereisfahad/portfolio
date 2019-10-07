@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="flexCenter mainWrapper">
       {/* {wrap h1 and nav in header t ag} */}
-      <h1 style={{paddingTop:'40px', marginBottom:'26px'}} className="animated infinite heartBeat delay-2s">Fahad Jabbar</h1>
+      <h1 style={{paddingTop:'40px', marginBottom:'26px', fontWeight: '200'}} className="animated infinite heartBeat delay-2s">Fahad Jabbar</h1>
       <Navbar />
       
       <Route path="/" component={Home} exact />
@@ -40,7 +40,7 @@ function App() {
         <a href="https://www.facebook.com/hereisfahad" rel="noopener noreferrer" target="_blank">
           <Facebook style={{width:30, height:30, marginRight:'16px', marginBottom:'10px'}} />
         </a> 
-        <a href="https://wa.me/+923009199076?text=I%20want%20to%20talk%20to%20you." rel="noopener noreferrer" target="_blank">
+        <a href="https://wa.me/+923009199076?text=Hey%20Fahad%20are%20you%20available%20to%20talk%20." rel="noopener noreferrer" target="_blank">
           <Whatsapp style={{width:30, height:30, marginRight:'16px', marginBottom:'10px'} }/>
         </a> 
       </footer>

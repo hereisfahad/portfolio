@@ -13,8 +13,7 @@ function About() {
             </Tilt>
          </div>
         <p>
-          About me?? Let's see.. My name is Fahad Jabbar, Computer science graduate. I used to play cricket but now i only play with JavaScript.
-          So yeah I am a JavaScript developer, sepecifically front-end developer and making my way towards full stack developement slowly and steadily.
+          About me?? Let's see.. My name is Fahad Jabbar, Computer science graduate. I am a JavaScript developer, sepecifically front-end developer and making my way towards full stack developement slowly and steadily.
           In my free time I read and watch TV. 
         </p>
     </div>

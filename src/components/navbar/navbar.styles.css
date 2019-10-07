@@ -9,12 +9,14 @@
     /* align-items: center; */
 }
 
-.nav .link{
+/* .nav */
+ .link{
     margin-right: 16px;
     color: #BBBBBD;
     transition: all 0.7s;
 }
-.nav .link:hover{
+/* .nav  */
+.link:hover{
     color: black;
 }
 /* .link{ */
