@@ -9,7 +9,7 @@ function Navbar() {
     // <div className="">
         <Nav defaultActiveKey="/home" className="navbarStyle" >
           <Link style={{textDecoration:'none'}} className="link " to='/'> Home</Link>
-          <Link style={{textDecoration:'none'}}  className="link " to='/projects' >Projects</Link>
+          <Link style={{textDecoration:'none'}}  className="link" to='/projects' >Projects</Link>
           <Link style={{textDecoration:'none'}}  className="link " to='/contact' >Contact</Link>
           <Link style={{textDecoration:'none'}}  className="link " to='/about' >About</Link>
         </Nav>
