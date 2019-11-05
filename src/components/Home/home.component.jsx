@@ -6,7 +6,7 @@ import logo from "../Home/pp.jpg";
 function Home() {
   return (
     <div className=" showCaseDiv animated bounceInLeft">
-      <div className="showCaseDiv animated zoomInUp">
+      <div className="showCaseDiv ">
         <div className="App d-flex justify-content-center mb-3 ml-5 mr-5">
           <Tilt
             className="Tilt "
