@@ -8,9 +8,7 @@ function Navbar() {
   return (
     // <div className="">
     <Nav defaultActiveKey="/home" className="navbarStyle">
-      <div id="bubble"></div>
       <Link style={{ textDecoration: "none" }} className="link " to="/">
-        {" "}
         Home
       </Link>
       <Link style={{ textDecoration: "none" }} className="link" to="/projects">
@@ -18,9 +16,6 @@ function Navbar() {
       </Link>
       <Link style={{ textDecoration: "none" }} className="link " to="/contact">
         Contact
-      </Link>
-      <Link style={{ textDecoration: "none" }} className="link " to="/about">
-        About
       </Link>
     </Nav>
     // </div>
