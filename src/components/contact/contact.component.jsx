@@ -7,7 +7,7 @@ function Contact() {
     marginBottom: "1.5rem"
   };
   return (
-    <div className="showCaseDiv animated lightSpeedIn">
+    <div className="showCaseDiv animated lightSpeedIn textDiv">
       <h2 style={h2Styles}>Don't be a stranger</h2>
       <p style={{ color: "#3e3e36ed", marginBottom: "26px" }}>
         Feel free to get in touch with me. I am always open to discussing new
