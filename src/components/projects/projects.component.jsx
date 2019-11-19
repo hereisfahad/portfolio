@@ -19,7 +19,7 @@ function Projects() {
       desc: "Detects faces in image (take input image url) using Clarifi Api.",
       tools: "ReactJs, NodeJs, PostgreSQL, Clarifai Api",
       imgUrl: "https://i.ibb.co/1QK7zYd/smart-brain.png",
-      site: "https://front-of-smart-brain.herokuapp.com/",
+      site: "https://smartbrainy.netlify.com/",
       github: "https://github.com/hereisfahad/smart-brain-ZTM/"
     },
     {
