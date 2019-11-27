@@ -51,7 +51,7 @@ function App() {
         >
           <i className="fab fa-twitter grow" style={iconStyles}></i>
         </a>
-        <a
+        {/* <a
           href="https://www.facebook.com/hereisfahad"
           rel="noopener noreferrer"
           target="_blank"
@@ -64,7 +64,7 @@ function App() {
           target="_blank"
         >
           <i className="fab fa-whatsapp grow" style={iconStyles}></i>
-        </a>
+        </a> */}
       </footer>
     </div>
   );
