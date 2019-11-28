@@ -1,5 +1,6 @@
 .cardy {
   width: 18rem;
+  height: 20rem;
   background-color: #d3d3d3 !important;
   animation: loading 1.5s infinite;
 }

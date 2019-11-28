@@ -11,9 +11,23 @@ function SkeltonCard() {
     borderRadius: "50%"
   };
   const flex = {
-    marginTop: "10px",
+    marginTop: "30px",
     display: "flex",
     justifyContent: "space-evenly"
+  };
+  const line = {
+    height: "10px",
+    width: "90%",
+    backgroundColor: "white",
+    margin: "5px auto",
+    marginBottom: "10px"
+  };
+  const title = {
+    height: "25px",
+    width: "100px",
+    backgroundColor: "white",
+    margin: "0 auto",
+    marginBottom: "18px"
   };
   return (
     <Card className="cardy">
@@ -23,31 +37,10 @@ function SkeltonCard() {
         style={{ height: "100px", backgroundColor: "white", margin: "5px" }}
       />
       <Card.Body>
-        <Card.Title
-          style={{
-            height: "15px",
-            width: "100px",
-            backgroundColor: "white",
-            margin: "0 auto"
-          }}
-        ></Card.Title>
-        <Card.Subtitle
-          style={{
-            height: "10px",
-            width: "90%",
-            backgroundColor: "white",
-            marginBottom: "4px",
-            margin: "5px auto"
-          }}
-        ></Card.Subtitle>
-        <Card.Text
-          style={{
-            height: "10px",
-            width: "80%",
-            backgroundColor: "white",
-            margin: "5px auto"
-          }}
-        ></Card.Text>
+        <Card.Title style={title}></Card.Title>
+        <Card.Subtitle style={line}></Card.Subtitle>
+        <Card.Subtitle style={line}></Card.Subtitle>
+        <Card.Subtitle style={line}></Card.Subtitle>
         <div style={flex}>
           <div style={iconStyles}></div>
           <div style={iconStyles}></div>
