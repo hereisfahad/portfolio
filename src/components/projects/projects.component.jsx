@@ -17,7 +17,7 @@ class Projects extends React.Component {
     )
       .then(r => r.json())
       .then(d => {
-        this.setState({ projects: d });
+        // this.setState({ projects: d });
       });
   }
   render() {
