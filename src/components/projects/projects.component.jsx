@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.styles.css";
 
 import PCard from "../card/card.component";
+import SkeltonCard from "../card/skelton-card";
 
 class Projects extends React.Component {
   constructor(props) {
@@ -26,17 +27,25 @@ class Projects extends React.Component {
         style={{ marginTop: "25px" }}
         className="projectGrid animated bounceInUp"
       >
-        {projects.map(item => (
-          <PCard
-            key={item.name}
-            imgUrl={item.imgUrl}
-            name={item.name}
-            desc={item.desc}
-            tools={item.tools}
-            site={item.site}
-            github={item.github}
-          />
-        ))}
+        {projects.length === 0 ? (
+          <>
+            <SkeltonCard />
+            <SkeltonCard />
+            <SkeltonCard />
+          </>
+        ) : (
+          projects.map(item => (
+            <PCard
+              key={item.name}
+              imgUrl={item.imgUrl}
+              name={item.name}
+              desc={item.desc}
+              tools={item.tools}
+              site={item.site}
+              github={item.github}
+            />
+          ))
+        )}
       </div>
     );
   }
