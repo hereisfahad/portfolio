@@ -23,13 +23,13 @@ function Home() {
       </div>
       <div className="textDiv">
         <h3 style={{ marginBottom: "1.5rem" }}>
-          Hey, I am a javascript developer.
+          Hey, I am a software developer.
         </h3>
         <p>
-          More About me?? Let's see.. My name is Fahad Jabbar, Computer science
-          graduate. I am a JavaScript developer, sepecifically front-end
-          developer and making my way towards full stack developement slowly and
-          steadily. In my free time I read and watch TV.
+          Sepecializing in front-end web developement with back-end experience.
+          Some might call that full-stack. The technologies I enjoyed the most
+          are Node.js, Express.js, MonogDB and Mongoose. In my free time I read
+          and watch TV.
         </p>
       </div>
     </div>
