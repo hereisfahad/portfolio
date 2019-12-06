@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="flexCenter mainWrapper" style={{ textAlign: "center" }}>
-      <h1 style={h1Styles} className=" animated infinite heartBeat delay-2s ">
+      <h1 style={h1Styles} className=" animated 1s heartBeat delay-1s ">
         Fahad Jabbar
       </h1>
       <Navbar />

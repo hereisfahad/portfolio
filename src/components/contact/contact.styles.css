@@ -14,7 +14,7 @@
   background-color: rgb(162, 163, 162);
   margin: 13px auto;
 }
-@media (max-width: 330px) {
+@media (max-width: 368px) {
   .para::after {
     display: none;
   }
