@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap";
 
 function SkeltonCard() {
   return (
-    <div className="cardy loading">
+    <Card className="cardy loading">
       <div variant="top" src="" className="imgPlace" />
       <Card.Body>
         <Card.Title className="title"></Card.Title>
@@ -20,7 +20,7 @@ function SkeltonCard() {
           <div className="iconStyles"></div>
         </div>
       </Card.Body>
-    </div>
+    </Card>
   );
 }
 

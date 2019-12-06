@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    // <div className="">
     <Nav defaultActiveKey="/home" className="navbarStyle">
       <Link style={{ textDecoration: "none" }} className="link " to="/">
         Home
@@ -18,7 +17,6 @@ function Navbar() {
         Contact
       </Link>
     </Nav>
-    // </div>
   );
 }
 
