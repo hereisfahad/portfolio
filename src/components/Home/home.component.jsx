@@ -2,6 +2,7 @@ import React from "react";
 
 import Tilt from "react-tilt";
 import logo from "../Home/pp.jpg";
+import "./home.styles.css";
 
 function Home() {
   return (

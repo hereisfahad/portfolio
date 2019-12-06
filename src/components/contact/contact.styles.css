@@ -1,0 +1,21 @@
+.showCaseDiv {
+  margin: 25px 30px;
+}
+.para {
+  height: 20px;
+  color: black;
+  font-weight: 500;
+}
+.para::after {
+  display: block;
+  content: "";
+  height: 5px;
+  width: 240px;
+  background-color: rgb(162, 163, 162);
+  margin: 13px auto;
+}
+@media (max-width: 330px) {
+  .para::after {
+    display: none;
+  }
+}

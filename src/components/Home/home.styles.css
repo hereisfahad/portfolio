@@ -1,0 +1,15 @@
+.textDiv {
+  max-width: 75vh;
+  text-align: center;
+  margin: 0 30px;
+}
+@media (max-width: 500px) {
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  p {
+    font-size: 0.9rem;
+    line-height: 2;
+    margin: 0px 30px;
+  }
+}

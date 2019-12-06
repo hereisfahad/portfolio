@@ -36,3 +36,14 @@ a {
 .textDiv {
   max-width: 75vh;
 }
+.growCard {
+  box-shadow: 4px 1px 6px rgba(155, 153, 153, 0.6);
+  transition: transform 0.25s ease-out;
+}
+.growCard:hover {
+  transform: scale(1.04);
+  z-index: 199;
+}
+.growCard:active {
+  transform: scale(0.9);
+}

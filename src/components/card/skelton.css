@@ -18,7 +18,7 @@
     transparent,
     rgba(255, 255, 255, 0.4),
     transparent
-  );
+  ) !important;
   animation: loading 1.5s infinite;
 }
 @keyframes loading {
