@@ -12,7 +12,7 @@ function Contact() {
       <h2 style={h2Styles}>Don't be a stranger</h2>
       <p style={{ color: "#3e3e36ed", marginBottom: "26px" }}>
         Feel free to get in touch with me. I am always open to discussing new
-        projects, createive ideas or opportunity to be a part of you visions.
+        projects, creative ideas or opportunities to be a part of your visions.
       </p>
       <p className="para">You can reach me on these platforms.</p>
     </div>

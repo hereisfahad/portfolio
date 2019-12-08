@@ -27,9 +27,9 @@ function Home() {
           Hey, I am a software developer.
         </h3>
         <p>
-          Sepecializing in front-end web developement with back-end experience.
+          Specializing in front-end web development with back-end experience.
           Some might call that full-stack. The technologies I enjoyed the most
-          are Node.js, Express.js, MonogDB and Mongoose. In my free time I read
+          are Node.js, Express.js, MongoDB,and Mongoose. In my free time, I read
           and watch TV.
         </p>
       </div>
