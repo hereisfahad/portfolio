@@ -29,8 +29,8 @@ function Home() {
         <p>
           Specializing in front-end web development with back-end experience.
           Some might call that full-stack. The technologies I enjoyed the most
-          are Node.js, Express.js, MongoDB,and Mongoose. In my free time, I read
-          and watch TV.
+          are React.js, Node.js, Express.js, MongoDB, and Mongoose. In my free
+          time, I read and watch TV.
         </p>
       </div>
     </div>

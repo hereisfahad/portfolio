@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="flexCenter mainWrapper" style={{ textAlign: "center" }}>
-      <h1 style={h1Styles} className=" animated 1s heartBeat delay-1s ">
+      <h1 style={h1Styles} className=" animated heartBeat delay-1s ">
         Fahad Jabbar
       </h1>
       <Navbar />
@@ -30,6 +30,13 @@ function App() {
       <Route path="/projects" component={Projects} exact />
       <Route path="/contact" component={Contact} exact />
       <footer>
+        <a
+          href="mailto:mrfahadjabbar@gmail.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <i className="far fa-envelope grow" style={iconStyles}></i>
+        </a>
         <a
           href="https://github.com/hereisfahad"
           rel="noopener noreferrer"

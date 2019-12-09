@@ -20,10 +20,10 @@ function PCard({ imgUrl, name, desc, tools, site, github }) {
         <Card.Subtitle className="mb-2 text-muted">{tools}</Card.Subtitle>
         <Card.Text>{desc}</Card.Text>
         <div className="d-flex justify-content-center">
-          <Card.Link href={site}>
-            <i className="fas fa-globe" style={iconStyles}></i>
+          <Card.Link href={site} target="_blank">
+            <i className="far fa-eye" style={iconStyles}></i>
           </Card.Link>
-          <Card.Link href={github}>
+          <Card.Link href={github}  target="_blank">
             <i className="fab fa-github" style={iconStyles}></i>
           </Card.Link>
         </div>
