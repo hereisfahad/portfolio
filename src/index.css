@@ -6,3 +6,6 @@ body {
   font-family: "Crafty Girls", cursive !important;
   user-select: none;
 }
+p{
+  line-height: 30px;
+}
