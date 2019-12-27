@@ -6,14 +6,14 @@
   color: black;
   font-weight: 500;
 }
-.para::after {
+/* .para::after {
   display: block;
   content: "";
   height: 5px;
   width: 240px;
   background-color: rgb(162, 163, 162);
   margin: 13px auto;
-}
+} */
 @media (max-width: 368px) {
   .para::after {
     display: none;

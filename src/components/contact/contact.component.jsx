@@ -14,7 +14,26 @@ function Contact() {
         Feel free to get in touch with me. I am always open to discussing new
         projects, creative ideas or opportunities to be a part of your visions.
       </p>
-      <p className="para">You can reach me on these platforms.</p>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>
+            Your Name: <input type="text" name="name" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your Email: <input type="email" name="email" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Message: <textarea name="message"></textarea>
+          </label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
     </div>
   );
 }
