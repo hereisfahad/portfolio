@@ -19,7 +19,15 @@ class Contact extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state })
     })
-      .then(() => alert("Success!"))
+      .then(() => {
+        this.setState({
+          name: "",
+          email: "",
+          phone: "",
+          details: ""
+        });
+        alert("Success!");
+      })
       .catch(error => alert(error));
 
     e.preventDefault();
@@ -44,6 +52,7 @@ class Contact extends React.Component {
           visions.
         </p>
         <form onSubmit={this.handleSubmit}>
+          <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>
               Your Name:{" "}
