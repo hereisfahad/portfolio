@@ -23,8 +23,7 @@ class Contact extends React.Component {
         this.setState({
           name: "",
           email: "",
-          phone: "",
-          details: ""
+          message: ""
         });
         alert("Success!");
       })
@@ -41,7 +40,8 @@ class Contact extends React.Component {
         <h2
           style={{
             color: "#9a9a3ec9",
-            marginBottom: "1.5rem"
+            marginBottom: "1.5rem",
+            fontFamily: "Crafty Girls"
           }}
         >
           Don't be a stranger
@@ -54,36 +54,30 @@ class Contact extends React.Component {
         <form onSubmit={this.handleSubmit}>
           <input type="hidden" name="form-name" value="contact" />
           <p>
-            <label>
-              Your Name:{" "}
-              <input
-                type="text"
-                name="name"
-                value={name}
-                onChange={this.handleChange}
-              />
-            </label>
+            <input
+              placeholder="Name"
+              type="text"
+              name="name"
+              value={name}
+              onChange={this.handleChange}
+            />
           </p>
           <p>
-            <label>
-              Your Email:{" "}
-              <input
-                type="email"
-                name="email"
-                value={email}
-                onChange={this.handleChange}
-              />
-            </label>
+            <input
+              placeholder="Email"
+              type="email"
+              name="email"
+              value={email}
+              onChange={this.handleChange}
+            />
           </p>
           <p>
-            <label>
-              Message:{" "}
-              <textarea
-                name="message"
-                value={message}
-                onChange={this.handleChange}
-              />
-            </label>
+            <textarea
+              placeholder="Message"
+              name="message"
+              value={message}
+              onChange={this.handleChange}
+            />
           </p>
           <p>
             <button type="submit">Send</button>

@@ -17,7 +17,8 @@ function App() {
   const h1Styles = {
     paddingTop: "40px",
     marginBottom: "26px",
-    fontWeight: "200"
+    fontWeight: "200",
+    fontFamily: "Crafty Girls"
   };
 
   return (

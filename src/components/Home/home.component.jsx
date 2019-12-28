@@ -23,7 +23,7 @@ function Home() {
         </Tilt>
       </div>
       <div className="textDiv">
-        <h3 style={{ marginBottom: "1.5rem" }}>
+        <h3 style={{ marginBottom: "1.5rem", fontFamily: "Crafty Girls" }}>
           Hey, I am a software developer.
         </h3>
         <p>

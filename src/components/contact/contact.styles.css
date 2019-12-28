@@ -6,6 +6,29 @@
   color: black;
   font-weight: 500;
 }
+input,
+textarea {
+  background: none;
+  background-color: white;
+  color: grey;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid grey;
+  margin: 25px 0;
+  outline: none;
+}
+button {
+  background-color: #9a9a3ec9;
+  outline: none;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+}
 /* .para::after {
   display: block;
   content: "";
