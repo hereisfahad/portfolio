@@ -22,7 +22,8 @@ textarea {
   outline: none;
 }
 button {
-  background-color: #9a9a3ec9;
+  background-color: #007bff;
+  color: white;
   outline: none;
   font-size: 18px;
   padding: 10px 10px 10px 5px;

@@ -39,7 +39,6 @@ class Contact extends React.Component {
       <div className="showCaseDiv animated lightSpeedIn textDiv">
         <h2
           style={{
-            color: "#9a9a3ec9",
             marginBottom: "1.5rem",
             fontFamily: "Crafty Girls"
           }}
