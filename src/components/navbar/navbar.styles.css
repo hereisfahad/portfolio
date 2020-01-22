@@ -12,12 +12,14 @@
 /* .nav */
 .link {
   margin-right: 16px;
-  color: #bbbbbd;
+  color: #495057;
   transition: all 0.7s;
+  border-bottom: 1px solid black;
 }
 /* .nav  */
 .link:hover {
   color: black;
+  border: none;
 }
 /* .link{ */
 /* width:100px; */
